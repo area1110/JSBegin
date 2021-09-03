@@ -1,0 +1,9 @@
+#start {
+    background-color: aquamarine;
+    border: none;
+    border-radius: 5px;
+}
+
+#start:hover {
+    background-color: rgb(66, 128, 107);
+}

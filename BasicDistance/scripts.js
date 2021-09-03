@@ -9,12 +9,12 @@
   convertdist.addEventListener("submit", function (evt) {
     evt.preventDefault();
     answer.removeAttribute("class");
-    if (distance.value === "") {
+    if (!distance.value) {
       answer.innerHTML = "Please input";
       return;
     }
     const fromDistance = Number(distance.value);
-    if (isNaN(fromDistance)) {
+    if (!fromDistance) {
       answer.innerHTML = "Please input an number";
       return;
     }
