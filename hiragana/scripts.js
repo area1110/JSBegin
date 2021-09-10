@@ -1,20 +1,45 @@
-const charArray = [
-  "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん",
-  "アイウウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン",
-];
+(function () {
+  const hiraKataString = [
+    "あいうえおかきくけこさしすせそたちつてとなにぬねのはひふへほまみむめもやゆよらりるれろわをん",
+    "アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン",
+  ];
 
-function getRndInteger(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
-}
+  const romanArray = ["a", "i", "", "", ""];
 
-function getString(choice) {
-  let numChar = getRndInteger(1, 4);
-  let textRandom =
-    charArray[choice][getRndInteger(choice, charArray[choice].length - 1)];
-  for (let i = 0; i < numChar; i++) {
-    textRandom +=
-      charArray[choice][getRndInteger(choice, charArray[choice].length - 1)];
+  let max, numChar, textRandom;
+
+  function getRndInteger(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
   }
-  document.getElementById("display").innerHTML = textRandom;
-  return 1;
-}
+
+  function getString(choice) {
+    max = document.getElementById("max").value;
+    max = Number(max);
+    if (!max) {
+      textRandom = "Vui lòng nhập số vào ô dưới";
+    } else {
+      numChar = getRndInteger(1, max);
+      textRandom =
+        hiraKataString[choice][
+          getRndInteger(choice, hiraKataString[choice].length - 1)
+        ];
+      for (let i = 0; i < numChar - 1; i++) {
+        textRandom +=
+          hiraKataString[choice][
+            getRndInteger(choice, hiraKataString[choice].length - 1)
+          ];
+      }
+    }
+    document.getElementById("display").innerHTML = textRandom;
+  }
+
+  document.getElementById("gethira").addEventListener("click", function () {
+    getString(0);
+  });
+  document.getElementById("getkata").addEventListener("click", function () {
+    getString(1);
+  });
+  document.getElementById("getroma").addEventListener("click", function () {
+    getString(0);
+  });
+})();
