@@ -1,18 +1,17 @@
 window.addEventListener('load', eventWindowLoaded, false);
+window.addEventListener('resize', canvasApp);
 
 function eventWindowLoaded () {
   canvasApp();
 }
 
 function canvasSupport (e) {
-  
     return !!e.getContext;
-
 }
 function canvasApp () {
   var canvas = document.getElementById('myCanvas');
 
-  if (!canvasSupport(myCanvas)) {
+  if (!canvasSupport(canvas)) {
     return; 
   }
   
