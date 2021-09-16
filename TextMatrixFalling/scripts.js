@@ -28,7 +28,7 @@ function canvasApp () {
 
   function drawScreen () {
     ctx.fillStyle = 'rgba(0,0,0,.05)';
-    ctx.fillRect(0, 0, w, h);
+    ctx.fillRect(0, 0, window.innerWidth, window.innerHeight);
     ctx.fillStyle = '#0f0';
     ctx.font = '17px Arial';
     yPositions.map(function(y, index){
@@ -44,5 +44,4 @@ function canvasApp () {
   }
   
   runMatrix();
- 
 }
