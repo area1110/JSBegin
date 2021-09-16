@@ -22,7 +22,7 @@
       content.removeChild(Img[0]);
     }
   }
-
+  
   previous.addEventListener("click", function (event) {
     event.preventDefault();
     currentIndexImg--;

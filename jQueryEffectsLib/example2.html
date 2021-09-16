@@ -46,7 +46,15 @@ nav ul li a:hover { background:#D5D4D4; }
     <script src ="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
     
     <script>
-        
+        $("#slideupbox").click(function(){
+            $("#box").slideUp("slow");
+        });
+        $("#slidedownbox").click(function(){
+            $("#box").slideDown("slow", "swing");
+        });
+        $("#slidetogglebox").click(function(){
+            $("#box").slideToggle("normal", "easeInOutElastic");
+        });
     </script>
 
 </body>
