@@ -23,7 +23,7 @@ function canvasApp() {
 
   function runMatrix() {
     if (typeof Game_Interval != "undefined") clearInterval(Game_interval);
-    Game_Interval = setInterval(drawScreen, 30);
+    Game_Interval = setInterval(drawScreen, 50);
   }
 
   function drawScreen() {
