@@ -82,6 +82,13 @@
           "slow"
         );
       });
+      $("#sequence").click(()=>{
+        $("#box").animate({width: "710"}, "slow", ()=>{
+          $("#box").animate({ fontSize: "40px" }, "slow", ()=>{
+            $("#box").animate({ left: "+=300" }, "slow", "easeInBounce");
+          });
+        })
+      });
     </script>
   </body>
 </html>
