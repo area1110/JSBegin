@@ -43,29 +43,29 @@ function getRandomInt(max) {
       if (typeof Game_Interval != "undefined") clearInterval(Game_interval);
       Game_Interval = setInterval(drawTheScreen, 1);
     }
-    let arrayCharImg = Array.from(stringImg.replaceAll("\r", "").replaceAll("\n", ""));
+    let arrayCharImg = Array.from(
+      stringImg.replaceAll("\r", "").replaceAll("\n", "")
+    );
     console.log(arrayCharImg);
     let arrayBoolean = Array(arrayCharImg.length).fill(false, 0); //initial the boolean array for showing the visible of each char on canvas
-   //the x position of one char
+    //the x position of one char
     function drawTheScreen() {
       ctx.fillStyle = "#000";
       ctx.font = "10px Arial";
-  
+
       arrayCharImg.map(function (y, index) {
         random = getRandomInt(arrayCharImg.length);
-        if (!arrayBoolean[index] && index===random) {
-          col = (Math.ceil((index + 1) / WIDTH) - 1);
+        if (!arrayBoolean[index] && index === random) {
+          col = Math.ceil((index + 1) / WIDTH) - 1;
           x = (index - WIDTH * col) * 6 + 0.1;
           y = col * 13 + 20;
-         ctx.fillText(arrayCharImg[index], x, y);
-         arrayBoolean[index] = true;
-       }
+          ctx.fillText(arrayCharImg[index], x, y);
+          arrayBoolean[index] = true;
+        }
       });
     }
-    runMatrix();  
+    runMatrix();
   }
 
-  
   main();
-  
 })();
