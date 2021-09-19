@@ -39,7 +39,9 @@ function getRandomInt(max) {
     let arrayBoolean = Array(arrayCharImg.length).fill(false, 0); //initial the boolean array for showing the visible of each char on canvas
     //the x position of one char
 
+
     function runMatrix() {
+      let Game_Interval;
       if (typeof Game_Interval != "undefined") clearInterval(Game_interval);
       Game_Interval = setInterval(drawTheScreen, 10);
     }
