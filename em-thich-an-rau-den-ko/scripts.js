@@ -49,7 +49,7 @@ function getRandomInt(max) {
     let random1, random2, random3, col, x;
 
     function drawTheScreen() {
-      ctx.fillStyle = "black";
+      ctx.fillStyle = "#000";
       ctx.font = "10px monospace";
       arrayCharImg.map(function (y, index) {
         random1 = getRandomInt(arrayCharImg.length);
