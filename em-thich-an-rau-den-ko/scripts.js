@@ -3,6 +3,7 @@ function getRandomInt(max) {
 }
 
 (function () {
+  "use strict";
   const WIDTH = 100;
   const HEIGHT = 50;
 
@@ -25,25 +26,25 @@ function getRandomInt(max) {
 
   function canvasApp(stringImg) {
     let myCanvas = document.getElementById("myCanvas");
-
     if (!canvasSupport(myCanvas)) {
       return;
     }
-
     myCanvas.width = window.innerWidth;
     myCanvas.height = window.innerHeight;
-    let ctx = myCanvas.getContext("2d");
 
-    arrayCharImg = Array.from(
+    let ctx = myCanvas.getContext("2d");
+    let arrayCharImg = Array.from(
       stringImg.replaceAll("\r", "").replaceAll("\n", "")
     );
-    arrayBoolean = Array(arrayCharImg.length).fill(false, 0); //initial the boolean array for showing the visible of each char on canvas
+    let arrayBoolean = Array(arrayCharImg.length).fill(false, 0); //initial the boolean array for showing the visible of each char on canvas
     //the x position of one char
 
     function runMatrix() {
       if (typeof Game_Interval != "undefined") clearInterval(Game_interval);
       Game_Interval = setInterval(drawTheScreen, 10);
     }
+
+    let random1, random2, random3, col, x;
 
     function drawTheScreen() {
       ctx.fillStyle = "black";
@@ -56,7 +57,7 @@ function getRandomInt(max) {
           !arrayBoolean[index] &&
           (index === random1 || index === random2 || index === random3)
         ) {
-          col = Math.ceil((index + 1) / WIDTH) - 1;
+          col = Math.ceil((index + 1) / WIDTH) - 1; //caculate which column of this index
           x = (index - WIDTH * col) * 6 + window.innerWidth * 0.1;
           y = col * 13 + 20;
           ctx.fillText(arrayCharImg[index], x, y);
@@ -69,5 +70,5 @@ function getRandomInt(max) {
   }
 
   main();
-  window.addEventListener("resize", main);
+  // window.addEventListener("resize", main);
 })();

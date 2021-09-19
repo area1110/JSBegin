@@ -8,7 +8,7 @@ function getRandomInt(max) {
   // "use strict";
 
   const WIDTH = 100;
-  const HEIGHT = 36;
+  const HEIGHT = 50;
 
   function main() {
     const FILE_PATH = "100x50-phong.txt";
@@ -41,26 +41,61 @@ function getRandomInt(max) {
 
     function runMatrix() {
       if (typeof Game_Interval != "undefined") clearInterval(Game_interval);
-      Game_Interval = setInterval(drawTheScreen, 1);
+      Game_Interval = setInterval(drawTheScreen, 30);
     }
     let arrayCharImg = Array.from(
       stringImg.replaceAll("\r", "").replaceAll("\n", "")
     );
+
+    // function to2Dimension(array1Dim, elementsPerSubArray) {
+    //   var matrix = [],
+    //     i,
+    //     k;
+
+    //   for (i = 0, k = -1; i < array1Dim.length; i++) {
+    //     if (i % elementsPerSubArray === 0) {
+    //       k++;
+    //       matrix[k] = [];
+    //     }
+
+    //     matrix[k].push(array1Dim[i]);
+    //   }
+
+    //   return matrix;
+    // }
+
+    arrayCharImg = to2Dimension(arrayCharImg, WIDTH);
     console.log(arrayCharImg);
+
+    var yPositions = Array(WIDTH).join(0).split("");
+
     let arrayBoolean = Array(arrayCharImg.length).fill(false, 0); //initial the boolean array for showing the visible of each char on canvas
     //the x position of one char
     function drawTheScreen() {
-      ctx.fillStyle = "#000";
+      ctx.fillStyle = "rgba(0, 0, 0, 1)";
+      ctx.fillRect(0, 0, myCanvas.width, myCanvas.height);
+      ctx.fillStyle = "#0f0";
       ctx.font = "10px Arial";
 
-      arrayCharImg.map(function (y, index) {
-        random = getRandomInt(arrayCharImg.length);
-        if (!arrayBoolean[index] && index === random) {
-          col = Math.ceil((index + 1) / WIDTH) - 1;
-          x = (index - WIDTH * col) * 6 + 0.1;
-          y = col * 13 + 20;
+      yPositions.map(function (yFalling, index) {
+        text = String.fromCharCode(1e2 + Math.random() * 33);
+        var xFalling = index * 6;
+        ctx.fillText(text, xFalling, yFalling);
+        if (yFalling > 100 + Math.random() * 1e4) {
+          yPositions[index] = 0;
+        } else {
+          yPositions[index] = yFalling + 10;
+        }
+
+        col = Math.ceil((index + 1) / WIDTH) - 1;
+        x = (index - WIDTH * col) * 6;
+        y = col * 13;
+        if (xFalling === x && yFalling === y) {
           ctx.fillText(arrayCharImg[index], x, y);
           arrayBoolean[index] = true;
+        }
+        if (arrayBoolean[index]) {
+          ctx.fillText(arrayCharImg[index][yFalling], x, y);
         }
       });
     }
