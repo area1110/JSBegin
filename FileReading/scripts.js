@@ -7,11 +7,11 @@ function getRandomInt(max) {
 (function () {
   // "use strict";
 
-  const WIDTH = 80;
+  const WIDTH = 100;
   const HEIGHT = 36;
 
   function main() {
-    const FILE_PATH = "80x36.txt";
+    const FILE_PATH = "100x50-phong.txt";
     readingFile(FILE_PATH).then(function (imgString) {
       canvasApp(imgString);
     });
@@ -39,9 +39,6 @@ function getRandomInt(max) {
 
     let ctx = myCanvas.getContext("2d");
 
-    ctx.fillStyle = "black";
-    ctx.fillRect(0, 0, window.innerWidth, window.innerHeight);
-
     function runMatrix() {
       if (typeof Game_Interval != "undefined") clearInterval(Game_interval);
       Game_Interval = setInterval(drawTheScreen, 1);
@@ -51,15 +48,15 @@ function getRandomInt(max) {
     let arrayBoolean = Array(arrayCharImg.length).fill(false, 0); //initial the boolean array for showing the visible of each char on canvas
    //the x position of one char
     function drawTheScreen() {
-      ctx.fillStyle = "#0f0";
-      ctx.font = "5px Arial";
+      ctx.fillStyle = "#000";
+      ctx.font = "10px Arial";
   
       arrayCharImg.map(function (y, index) {
         random = getRandomInt(arrayCharImg.length);
         if (!arrayBoolean[index] && index===random) {
           col = (Math.ceil((index + 1) / WIDTH) - 1);
-          x = (index - WIDTH * col) * 5 + 10;
-          y = col * 10 + 10;
+          x = (index - WIDTH * col) * 6 + 0.1;
+          y = col * 13 + 20;
          ctx.fillText(arrayCharImg[index], x, y);
          arrayBoolean[index] = true;
        }
