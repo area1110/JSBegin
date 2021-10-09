@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>T XIN LỖI NHIỀU 😭</title>
+  </head>
+  <style>
+     pre {
+        width: 70%;
+        margin: auto;
+     }
+  </style>
+  <body>
+    <pre  id="text"></pre>
+    <script>
+      const FILE_PATH = "budd.txt";
+      readingFile(FILE_PATH).then(function (imgString) {
+        document.getElementById("text").innerText = imgString;
+      });
+
+      async function readingFile(filePath) {
+        const r = await fetch(filePath);
+        const t = await r.text();
+        return Promise.resolve(t);
+      }
+    </script>
+  </body>
+</html>
