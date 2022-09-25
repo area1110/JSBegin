@@ -18,21 +18,31 @@
 
       <div class="cotroller">
         <form onsubmit="return false">
-            <button id="gethira">Hira</button>
-            <button id="getkata">Kata</button>
-            <br />
-            <button id="getroma">Phiên âm</button>
-            <br />
-            <div class="block">
-              <label for="number">Số lượng chữ cái nhiều nhất: </label>
-              <input
-                type="text"
-                id="max"
-                value="5"
-                pattern="[\d]+"
-                placeholder="Nhập số"
-              />
-            </div>
+          <button id="gethira">Hira</button>
+          <button id="getkata">Kata</button>
+          <br />
+          <button id="getroma">Phiên âm</button>
+          <br />
+          <div class="block">
+            <label for="max">Số lượng chữ cái trong khoảng: </label>
+            <input
+              class="input-numchar"
+              type="text"
+              id="min"
+              value="5"
+              pattern="[\d]+"
+              placeholder="min"
+            /><span> ~ </span>
+            <input
+              class="input-numchar"
+              type="text"
+              id="max"
+              value="5"
+              pattern="[\d]+"
+              placeholder="max"
+            />
+          </div>
+          <button id="copy">Copy</button>
         </form>
       </div>
     </main>

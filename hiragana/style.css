@@ -46,9 +46,13 @@ button:hover {
   font-size: large;
 }
 
-#max {
+.input-numchar {
   width: 70px;
   height: 20px;
   padding: 5px;
   font-size: large;
+}
+
+#copy{
+  display: none;
 }
