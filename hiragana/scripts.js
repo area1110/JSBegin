@@ -52,7 +52,7 @@
     "wo",
     "n",
   ];
-  const display = document.getElementById("display");
+  const display = document.getElementById("content");
   let max, numChar, textRandom;
 
   function getRndInteger(min, max) {
