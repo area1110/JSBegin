@@ -1,0 +1,393 @@
+﻿#EXTM3U thanh51
+#EXTINF:-1,[COLOR yellow][B]**Kênh SPORTS VIP **[/B][/COLOR]
+http://www.myownlabel.com
+#EXTINF:-1,K+1
+http://125.212.217.227:1935/livep/sport_k.stream_480p/chunklist.m3u8
+#EXTINF:-1,K+PM
+http://125.212.217.227:1935/livep/sport_kpm.stream_480p/chunklist.m3u8
+#EXTINF:-1,SCTVHD THE THAO 1
+http://112.197.2.135:1935/colive/C042_SD_4/playlist.m3u8
+#EXTINF:-1,SCTVHD THE THAO 2
+http://112.197.2.135:1935/colive/C008_HD_4/playlist.m3u8
+#EXTINF:0,BONGDATV HD
+rtmp://118.70.203.130:1935/channel/vtvcab16hd_vtvlive
+#EXTINF:0,THETHAOTV HD
+rtmp://118.70.203.130:1935/channel/vtvcab3hd_vtvlive
+#EXTINF:-1,VTC3 HD
+http://210.245.18.154/spsklfl/_definst_/vtc3.720p.stream/chunklist.m3u8
+#EXTINF:-1,FOX SPORT1 HD
+http://htqjrpsv.cdnviet.com:1933/htjzzsg/_htv_/fox1.720p.stream/playlist.m3u8?t=35d87a69e5ee852ec56494bf9424fae2&e=1455861252
+#EXTINF:-1,FOX SPORT2 HD
+http://htqjrpsv.cdnviet.com:1933/htjzzsg/_htv_/fox2.720p.stream/playlist.m3u8?t=06735fd35a67ba9fe2a263f77d164bea&e=1455861263
+#EXTINF:-1,VTC3
+http://123.30.185.126/hls/vtc3.m3u8
+#EXTINF:-1,BTV5
+http://112.197.2.135:1935/colive/C069_SD_4/playlist.m3u8
+#EXTINF:-1,FOX SPORT
+http://103.48.192.25:1935/215ed32a-75d8-4f87-80ee-3810110b87b4/kenh3/playlist.m3u8
+#EXTINF:-1,SKY NET SPORT HD S1
+http://199.189.110.20:1935/as99/chSport1hd/playlist.m3u8
+#EXTINF:-1,SKY NET SPORT HD S2
+http://216.185.103.158:1935/live2/chSport1hd/playlist.m3u8 
+#EXTINF:-1,SKY NET SPORT1 S1
+http://199.189.110.20:1935/as99/chSport2hd/playlist.m3u8
+#EXTINF:-1,SKY NET SPORT1 S2
+http://216.185.103.158:1935/live2/chSport2hd/playlist.m3u8 
+
+#EXTINF:-1,[COLOR yellow][B]**Kênh VTV-VTVcab **[/B][/COLOR]
+http://www.myownlabel.com
+#EXTINF:-1,VTV1 HD s1
+rtmp://118.70.203.130:1935/channel/vtv1hd_vtvlive
+#EXTINF:-1,VTV1 HD s2
+rtmp://123.30.238.124/live/_definst_/vtv1-high
+#EXTINF:-1,VTV2 HD
+rtmp://123.30.238.124/live/_definst_/vtv2-high
+#EXTINF:-1, VTV3 HD s1
+http://210.245.18.154/spsklfl/_definst_/vtv3.720p.stream/playlist.m3u8
+#EXTINF:-1,VTV3 HD s2
+rtmp://118.70.203.130:1935/channel/vtv3hd_vtvlive
+#EXTINF:-1,VTV3 HD s3
+rtmp://123.30.238.125/live/_definst_/vtv3-high
+#EXTINF:-1, VTV6 HD s1
+http://210.245.18.154/spsklfl/_definst_/vtv6.720p.stream/playlist.m3u8
+#EXTINF:-1,VTV6 HD s2
+rtmp://118.70.203.130:1935/channel/vtv6hd_profile1.stream
+#EXTINF:-1,VTV6 HD s3
+rtmp://123.30.238.125/live/_definst_/vtv6-high
+#EXTINF:-1,VTV7 HD
+rtmp://123.30.238.125/live/_definst_/vtv7-high
+#EXTINF:-1, VTV1 s1
+http://210.245.18.154/spsklfl/_definst_/vtv1.360p.stream/playlist.m3u8
+#EXTINF:-1, VTV1 s2
+rtmp://112.197.2.135:1935/colive/C043_SD_4   
+#EXTINF:-1, VTV2 s1
+http://210.245.18.154/spsklfl/_definst_/vtv2.360p.stream/playlist.m3u8
+#EXTINF:-1, VTV2 s2
+rtmp://112.197.2.135:1935/colive/C044_SD_4
+#EXTINF:-1, VTV3
+http://210.245.18.154/spsklfl/_definst_/vtv3.360p.stream/playlist.m3u8
+#EXTINF:-1,VTV4
+rtmp://123.30.238.125/live/_definst_/vtv4-mid
+#EXTINF:-1,VTV5
+rtmp://123.30.238.125/live/_definst_/vtv5-mid
+#EXTINF:-1,VTV8
+rtmp://123.30.238.125/live/_definst_/vtv8-mid
+#EXTINF:-1, VTV9 s1
+http://210.245.18.154/spsklfl/_definst_/vtv9.360p.stream/playlist.m3u8
+#EXTINF:-1,VTV9 s2
+rtmp://123.30.238.124/live/_definst_/vtv9-mid  
+#EXTINF:-1,VTVHUE
+rtmp://112.197.2.135:1935/colive/C061_SD_4       
+#EXTINF:-1,VTVCANTHO1
+rtmp://112.197.2.135:1935/colive/C063_SD_4 
+#EXTINF:-1,VTVcab3 HD
+rtmp://118.70.203.130:1935/channel/vtvcab3hd_vtvlive
+#EXTINF:-1,VTVcab16 HD
+rtmp://118.70.203.130:1935/channel/vtvcab16hd_vtvlive
+#EXTINF:-1,VTVcab1 s1
+rtmp://118.70.203.130:1935/channel/vtvcab1_profile1.stream
+#EXTINF:-1,VTVcab1 s2
+http://hlscache.fptplay.net.vn/vtvlive/giaitritv_hls.smil/chunklist_b1200000.m3u8
+#EXTINF:-1,VTVcab2 s1
+rtmp://118.70.203.130:1935/channel/vtvcab2_profile1.stream
+#EXTINF:-1,VTVcab2 s2
+http://hlscache.fptplay.net.vn/vtvlive/phimviet_hls.smil/chunklist_b1200000.m3u8
+#EXTINF:-1,ThethaoTV s1
+rtmp://118.70.203.130:1935/channel/vtvcab3sd_profile1.stream
+#EXTINF:-1,ThethaoTV s2
+http://hlscache.fptplay.net.vn/vtvlive/thethaotvsd_hls.smil/chunklist_b1200000.m3u8
+#EXTINF:-1,VTVcab4 s1
+rtmp://118.70.203.130:1935/channel/vtvcab4_profile1.stream
+#EXTINF:-1,VTVcab4 s2
+http://hlscache.fptplay.net.vn/vtvlive/kenh17_hls.smil/chunklist_b1200000.m3u8
+#EXTINF:-1,VTVcab5 s1
+rtmp://118.70.203.130:1935/channel/vtvcab5_profile1.stream
+#EXTINF:-1,VTVcab5 s2
+http://hlscache.fptplay.net.vn/vtvlive/echanel_hls.smil/chunklist_b1200000.m3u8
+#EXTINF:-1,VTVcab6 s1
+rtmp://118.70.203.130:1935/channel/vtvcab6_profile1.stream
+#EXTINF:-1,VTVcab6 s2
+http://hlscache.fptplay.net.vn/vtvlive/haytv_hls.smil/chunklist_b1200000.m3u8
+#EXTINF:-1,VTVcab7 s1
+rtmp://118.70.203.130:1935/channel/vtvcab7_profile1.stream
+#EXTINF:-1,VTVcab7 s2
+http://hlscache.fptplay.net.vn/vtvlive/ddramas_hls.smil/chunklist_b1200000.m3u8
+#EXTINF:-1,VTVcab8 s1
+rtmp://118.70.203.130:1935/channel/vtvcab8_profile1.stream
+#EXTINF:-1,VTVcab8 s2
+http://hlscache.fptplay.net.vn/vtvlive/bibi_hls.smil/chunklist_b1200000.m3u8
+#EXTINF:-1,VTVcab9 s1
+rtmp://118.70.203.130:1935/channel/vtvcab9_profile1.stream
+#EXTINF:-1,VTVcab9 s2
+http://hlscache.fptplay.net.vn/vtvlive/infotv_hls.smil/chunklist_b1200000.m3u8
+#EXTINF:-1,VTVcab10 s1
+rtmp://118.70.203.130:1935/channel/vtvcab10_profile1.stream
+#EXTINF:-1,VTVcab10 s2
+http://hlscache.fptplay.net.vn/vtvlive/o2tv_hls.smil/chunklist_b1200000.m3u8
+#EXTINF:-1,VTVcab11
+rtmp://118.70.203.130:1935/channel/vtvcab11_profile1.stream
+#EXTINF:-1,VTVcab12 s1
+http://hlscache.fptplay.net.vn/vtvlive/styletv_hls.smil/chunklist_b1200000.m3u8
+#EXTINF:-1,VTVcab12 s2
+rtmp://118.70.203.130:1935/channel/vtvcab12_profile1.stream
+#EXTINF:-1,VTVcab15 s1
+rtmp://118.70.203.130:1935/channel/vtvcab15_profile1.stream
+#EXTINF:-1,VTVcab15 s2
+http://hlscache.fptplay.net.vn/vtvlive/investtv_hls.smil/chunklist_b1200000.m3u8
+#EXTINF:-1,BongdaTV s1
+rtmp://118.70.203.130:1935/channel/vtvcab16sd_profile1.stream
+#EXTINF:-1,BongdaTV s2
+http://hlscache.fptplay.net.vn/vtvlive/bongdatvsd_hls.smil/chunklist_b1200000.m3u8
+#EXTINF:-1,VTVcab17 s1
+rtmp://118.70.203.130:1935/channel/vtvcab17_profile1.stream
+#EXTINF:-1,VTVcab17 s2
+http://hlscache.fptplay.net.vn/vtvlive/yeah1tv_hls.smil/chunklist_b1200000.m3u8
+
+#EXTINF:-1,[COLOR yellow][B]**Kênh HTV-VTC **[/B][/COLOR]
+http://www.myownlabel.com
+#EXTINF:0, HTV2 HD
+http://210.245.18.154/spsklfl/_definst_/htv2.720p.stream/playlist.m3u8
+#EXTINF:0, HTV7 HD
+http://210.245.18.154/spsklfl/_definst_/htv7.720p.stream/playlist.m3u8
+#EXTINF:-1, HTV9 HD
+http://210.245.18.154/spsklfl/_definst_/htv9.720p.stream/playlist.m3u8
+#EXTINF:0, HTVC phim HD 
+http://210.245.18.154/spsklfl/_definst_/htvc_movies.720p.stream/playlist.m3u8
+#EXTINF:0, HTVC Thuần Việt HD 
+http://210.245.18.154/spsklfl/_definst_/thuan_viet.720p.stream/playlist.m3u8
+#EXTINF:0, HTVC FBNC HD 
+http://210.245.18.154/spsklfl/_definst_/fbnc.720p.stream/playlist.m3u8
+#EXTINF:-1, VTC3 HD
+http://210.245.18.154/spsklfl/_definst_/vtc3.720p.stream/playlist.m3u8
+#EXTINF:0, HTV1
+http://210.245.18.154/spsklfl/_definst_/htv1.360p.stream/playlist.m3u8
+#EXTINF:0, HTV3
+http://210.245.18.154/spsklfl/_definst_/htv3.360p.stream/playlist.m3u8
+#EXTINF:0, HTV4
+http://210.245.18.154/spsklfl/_definst_/htv4.360p.stream/playlist.m3u8
+#EXTINF:0, HTVC the thao 
+http://210.245.18.154/spsklfl/_definst_/htvc_the_thao.360p.stream/playlist.m3u8
+#EXTINF:0, HTVC canhac 
+http://210.245.18.154/spsklfl/_definst_/htvc_music.360p.stream/playlist.m3u8
+#EXTINF:0, HTVC dulich 
+http://210.245.18.154/spsklfl/_definst_/du_lich.360p.stream/playlist.m3u8
+#EXTINF:0, HTVC giadinh 
+http://210.245.18.154/spsklfl/_definst_/gia_dinh.360p.stream/playlist.m3u8
+#EXTINF:0, HTVC phunu 
+http://210.245.18.154/spsklfl/_definst_/phu_nu.360p.stream/playlist.m3u8
+#EXTINF:0, HTVC shopping 
+http://210.245.18.154/spsklfl/_definst_/shopping.360p.stream/playlist.m3u8
+#EXTINF:-1,HTVCO.OP
+http://htqjrpsv.cdnviet.com:1933/htjzzsg/_htv_/htvcoop.360p.stream/playlist.m3u8?t=087f320f436543e8a08d4fcfd83a795b&e=1455872425
+#EXTINF:-1, VTC4
+http://210.245.18.154/spsklfl/_definst_/vtc4.360p.stream/playlist.m3u8
+#EXTINF:-1, VTC7
+http://210.245.18.154/spsklfl/_definst_/vtc7.360p.stream/playlist.m3u8
+
+#EXTINF:-1,[COLOR yellow][B]**Kênh SCTV **[/B][/COLOR]
+http://www.myownlabel.com   
+#EXTINF: 0,SCTVHD-DU LICH & KHÁM PHÁ 
+rtmp://112.197.2.135:1935/colive/C007_HD_4       
+#EXTINF: 0,SCTVHD-PHIM  VIỆT 
+rtmp://112.197.2.135:1935/colive/C009_HD_4       
+#EXTINF: 0,SCTVHD-PHIM CHÂU Á   
+rtmp://112.197.2.135:1935/colive/C010_HD_4       
+#EXTINF: 0,SCTVHD-PHIM TỔNG HỢP     
+rtmp://112.197.2.135:1935/colive/C013_HD_4       
+#EXTINF: 0,SCTVHD-PHIM NƯỚC NGOÀI ÐẶC SẮC   
+rtmp://112.197.2.135:1935/colive/C015_HD_2  
+#EXTINF: 0,SCTVHD-GIẢI TRÍ TỔNG HỢP   
+rtmp://112.197.2.135:1935/colive/C014_HD_2       
+#EXTINF: 0,SCTVHD-THIẾU NHI   
+rtmp://112.197.2.135:1935/colive/C016_HD_2       
+#EXTINF: 0,SCTVHD-HÀI     
+rtmp://112.197.2.135:1935/colive/C011_HD_4       
+#EXTINF: 0,SCTVHD-SÂN KHẤU   
+rtmp://112.197.2.135:1935/colive/C012_HD_4       
+#EXTINF: 0,SCTVHD-PHỤ NỮ & GIA ÐÌNH   
+rtmp://112.197.2.135:1935/colive/C017_HD_2       
+#EXTINF: 0 , SCTVHD THỂ THAO 1 
+rtmp://112.197.2.135:1935/colive/C042_SD_4       
+#EXTINF: 0 ,SCTVHD THỂ THAO 2 
+rtmp://112.197.2.135:1935/colive/C008_HD_4       
+#EXTINF: 0 , SCTVHD-SÓNG NHẠC 
+rtmp://112.197.2.135:1935/colive/C006_HD_4       
+#EXTINF: -1, SCTV1
+rtmp://112.197.2.135:1935/colive/C027_SD_3       
+#EXTINF: -1, SCTV2
+rtmp://112.197.2.135:1935/colive/C028_SD_3       
+#EXTINF: -1, SCTV3
+rtmp://112.197.2.135:1935/colive/C029_SD_3       
+#EXTINF: -1, SCTV4
+rtmp://112.197.2.135:1935/colive/C030_SD_3       
+#EXTINF: -1, SCTV5
+rtmp://112.197.2.135:1935/colive/C037_SD_3       
+#EXTINF: -1, SCTV6
+rtmp://112.197.2.135:1935/colive/C038_SD_3       
+#EXTINF: -1, SCTV7
+rtmp://112.197.2.135:1935/colive/C039_SD_3       
+#EXTINF: -1, SCTV8
+rtmp://112.197.2.135:1935/colive/C040_SD_3       
+#EXTINF: -1, SCTV9
+rtmp://112.197.2.135:1935/colive/C041_SD_3       
+#EXTINF: -1, SCTV10
+rtmp://112.197.2.135:1935/colive/C064_SD_3       
+#EXTINF: -1, SCTV11
+rtmp://112.197.2.135:1935/colive/C066_SD_3       
+#EXTINF: -1, SCTV12
+rtmp://112.197.2.135:1935/colive/C067_SD_3       
+#EXTINF: -1, SCTV13
+rtmp://112.197.2.135:1935/colive/C031_SD_3       
+#EXTINF: -1, SCTV14
+rtmp://112.197.2.135:1935/colive/C032_SD_3       
+#EXTINF: -1, SCTV15
+rtmp://112.197.2.135:1935/colive/C042_SD_3       
+#EXTINF: -1, SCTV16
+rtmp://112.197.2.135:1935/colive/C033_SD_3       
+#EXTINF: -1, SCTV17
+rtmp://112.197.2.135:1935/colive/C034_SD_3       
+#EXTINF: 0, SCTV18
+rtmp://112.197.2.135:1935/colive/C008_HD_2       
+
+#EXTINF:-1,[COLOR yellow][B]**Kênh Địa Phương **[/B][/COLOR]
+http://www.myownlabel.com
+#EXTINF:-1,Đà Nẵng 1
+rtmp://112.197.2.135:1935/colive/C060_SD_4
+#EXTINF:-1, Vĩnh Long 1
+http://210.245.18.154/spsklfl/_definst_/vinhlong1.360p.stream/playlist.m3u8
+#EXTINF: -1, Vĩnh long 2
+rtmp://112.197.2.135:1935/colive/C070_SD_4 
+#EXTINF:-1, Đồng Tháp 1
+http://210.245.18.154/spsklfl/_definst_/dongthap.360p.stream/playlist.m3u8
+#EXTINF:-1, Bình Dương 1
+http://210.245.18.154/spsklfl/_definst_/btv3.360p.stream/playlist.m3u8
+#EXTINF:-1,Bình dương 3
+rtmp://112.197.2.135:1935/colive/C068_SD_4
+#EXTINF:-1,Bình Dương 5 Bóng Ðá
+rtmp://112.197.2.135:1935/colive/C069_SD_4       
+#EXTINF:-1, Nam Định 
+http://210.245.18.154/spsklfl/_definst_/namdinh.360p.stream/playlist.m3u8
+#EXTINF:-1, Lạng Sơn 
+http://210.245.18.154/spsklfl/_definst_/langson.360p.stream/playlist.m3u8
+#EXTINF:-1, Long An 
+http://210.245.18.154/spsklfl/_definst_/longan.360p.stream/playlist.m3u8
+#EXTINF:-1, Bình Phước 1 
+http://210.245.18.154/spsklfl/_definst_/binhphuoc.360p.stream/playlist.m3u8
+#EXTINF:-1, Tây Ninh 
+http://210.245.18.154/spsklfl/_definst_/tayninh.360p.stream/playlist.m3u8
+#EXTINF:-1, Cà Mau 
+http://210.245.18.154/spsklfl/_definst_/camau.360p.stream/playlist.m3u8
+#EXTINF:-1, Sóc trăng 
+http://210.245.18.154/spsklfl/_definst_/soctrang.360p.stream/playlist.m3u8
+#EXTINF:-1, Khánh Hòa 
+http://210.245.18.154/spsklfl/_definst_/khanhhoa.360p.stream/playlist.m3u8
+#EXTINF:-1, Lào Cai 
+http://210.245.18.154/spsklfl/_definst_/laocai.360p.stream/playlist.m3u8
+#EXTINF:-1, Quảng Nam 
+http://210.245.18.154/spsklfl/_definst_/quangnam.360p.stream/playlist.m3u8
+#EXTINF:-1, Ninh Bình 
+http://210.245.18.154/spsklfl/_definst_/ninhbinh.360p.stream/playlist.m3u8
+#EXTINF:-1, Bà Rịa-Vũng Tàu
+http://210.245.18.154/spsklfl/_definst_/baria.360p.stream/playlist.m3u8
+#EXTINF:-1, Hải Dương
+http://210.245.18.154/spsklfl/_definst_/haiduong.360p.stream/playlist.m3u8
+#EXTINF:-1, Vĩnh Phúc
+http://210.245.18.154/spsklfl/_definst_/vinhphuc.360p.stream/playlist.m3u8
+#EXTINF:-1, Bình Định
+http://210.245.18.154/spsklfl/_definst_/binhdinh.360p.stream/playlist.m3u8
+
+#EXTINF:-1,[COLOR yellow][B]**Kênh Quốc Tế **[/B][/COLOR]
+http://www.myownlabel.com
+#EXTINF:0, Nat Geo HD s1
+http://210.245.18.154/spsklfl/_definst_/natgeo.720p.stream/playlist.m3u8
+#EXTINF:0, Nat Geo HD s2
+http://112.197.2.135:1935/mlive/C002_HD_4/chunklist.m3u8?us=244fa60e7a4d1cbb358296a1e932a23d6694804de41b2cd39cabce04e4cff8e262eb993eb9dac3a677e2d6872fba799a-1179580
+#EXTINF:0, DISCOVERY WORLD HD
+http://112.197.2.135:1935/mlive/C003_HD_4/chunklist.m3u8?us=244fa60e7a4d1cbb358296a1e932a23d6694804de41b2cd39cabce04e4cff8e262eb993eb9dac3a677e2d6872fba799a-1179580
+#EXTINF:-1, Starmovies HD s1
+http://210.245.18.154/spsklfl/_definst_/starmovies.720p.stream/playlist.m3u8
+#EXTINF: 0,STARMOVIES HD s2
+rtmp://112.197.2.135:1935/colive/C001_HD_4
+#EXTINF: 0,STARMOVIES HD s3
+http://112.197.2.135:1935/mlive/C001_HD_4/chunklist.m3u8?us=244fa60e7a4d1cbb358296a1e932a23d6694804de41b2cd39cabce04e4cff8e262eb993eb9dac3a677e2d6872fba799a-1179580
+#EXTINF:0, HBO HD
+http://112.197.2.135:1935/mlive/C004_HD_4/chunklist.m3u8?us=244fa60e7a4d1cbb358296a1e932a23d6694804de41b2cd39cabce04e4cff8e262eb993eb9dac3a677e2d6872fba799a-1179580
+#EXTINF:-1, Starworld HD 
+http://210.245.18.154/spsklfl/_definst_/starworld.720p.stream/playlist.m3u8
+#EXTINF:-1,FOX SPORT1 HD
+http://htqjrpsv.cdnviet.com:1933/htjzzsg/_htv_/fox1.720p.stream/playlist.m3u8?t=35d87a69e5ee852ec56494bf9424fae2&e=1455861252
+#EXTINF:-1,FOX SPORT2 HD
+http://htqjrpsv.cdnviet.com:1933/htjzzsg/_htv_/fox2.720p.stream/playlist.m3u8?t=06735fd35a67ba9fe2a263f77d164bea&e=1455861263
+#EXTINF:0,FOX SPORT HD
+http://112.197.2.135:1935/mlive/C005_HD_4/chunklist.m3u8?us=244fa60e7a4d1cbb358296a1e932a23d6694804de41b2cd39cabce04e4cff8e262eb993eb9dac3a677e2d6872fba799a-1179580
+#EXTINF:-1,ANIMALPLANET
+http://112.197.2.135:1935/mlive/C017_SD_4/chunklist.m3u8?us=244fa60e7a4d1cbb358296a1e932a23d6694804de41b2cd39cabce04e4cff8e262eb993eb9dac3a677e2d6872fba799a-1179580
+#EXTINF:-1,CINEMAX
+http://112.197.2.135:1935/mlive/C026_SD_4/chunklist.m3u8?us=244fa60e7a4d1cbb358296a1e932a23d6694804de41b2cd39cabce04e4cff8e262eb993eb9dac3a677e2d6872fba799a-1179580
+#EXTINF:-1,AXN
+http://112.197.2.135:1935/mlive/C016_SD_4/chunklist.m3u8?us=244fa60e7a4d1cbb358296a1e932a23d6694804de41b2cd39cabce04e4cff8e262eb993eb9dac3a677e2d6872fba799a-1179580
+#EXTINF:0, HBO
+http://112.197.2.135:1935/mlive/C014_SD_4/chunklist.m3u8?us=244fa60e7a4d1cbb358296a1e932a23d6694804de41b2cd39cabce04e4cff8e262eb993eb9dac3a677e2d6872fba799a-1179580
+#EXTINF:-1,CN
+http://112.197.2.135:1935/mlive/C013_SD_4/chunklist.m3u8?us=244fa60e7a4d1cbb358296a1e932a23d6694804de41b2cd39cabce04e4cff8e262eb993eb9dac3a677e2d6872fba799a-1179580
+#EXTINF:-1,DISNEY
+http://112.197.2.135:1935/mlive/C012_SD_4/chunklist.m3u8?us=244fa60e7a4d1cbb358296a1e932a23d6694804de41b2cd39cabce04e4cff8e262eb993eb9dac3a677e2d6872fba799a-1179580
+#EXTINF:-1, MEDIACORP
+http://112.197.2.135:1935/mlive/C025_SD_4/chunklist.m3u8?us=244fa60e7a4d1cbb358296a1e932a23d6694804de41b2cd39cabce04e4cff8e262eb993eb9dac3a677e2d6872fba799a-1179580
+#EXTINF:-1,CNBC
+http://112.197.2.135:1935/mlive/C024_SD_4/chunklist.m3u8?us=244fa60e7a4d1cbb358296a1e932a23d6694804de41b2cd39cabce04e4cff8e262eb993eb9dac3a677e2d6872fba799a-1179580
+#EXTINF:-1,CNN
+http://112.197.2.135:1935/mlive/C023_SD_4/chunklist.m3u8?us=244fa60e7a4d1cbb358296a1e932a23d6694804de41b2cd39cabce04e4cff8e262eb993eb9dac3a677e2d6872fba799a-1179580
+#EXTINF:-1,BBC WORLD NEWS
+http://112.197.2.135:1935/mlive/C022_SD_4/chunklist.m3u8?us=244fa60e7a4d1cbb358296a1e932a23d6694804de41b2cd39cabce04e4cff8e262eb993eb9dac3a677e2d6872fba799a-1179580
+#EXTINF:-1,FOX SPORT
+http://103.48.192.25:1935/215ed32a-75d8-4f87-80ee-3810110b87b4/kenh3/playlist.m3u8
+#EXTINF:-1,FOXSPORT2
+http://112.197.2.135:1935/mlive/C020_SD_4/chunklist.m3u8?us=244fa60e7a4d1cbb358296a1e932a23d6694804de41b2cd39cabce04e4cff8e262eb993eb9dac3a677e2d6872fba799a-1179580
+#EXTINF:-1,FASHIONTV
+http://112.197.2.135:1935/mlive/C019_SD_4/chunklist.m3u8?us=244fa60e7a4d1cbb358296a1e932a23d6694804de41b2cd39cabce04e4cff8e262eb993eb9dac3a677e2d6872fba799a-1179580
+#EXTINF:-1,CHANNEL V
+http://112.197.2.135:1935/mlive/C018_SD_4/chunklist.m3u8?us=244fa60e7a4d1cbb358296a1e932a23d6694804de41b2cd39cabce04e4cff8e262eb993eb9dac3a677e2d6872fba799a-1179580
+#EXTINF:-1,STARWORLD
+http://112.197.2.135:1935/mlive/C015_SD_4/chunklist.m3u8?us=244fa60e7a4d1cbb358296a1e932a23d6694804de41b2cd39cabce04e4cff8e262eb993eb9dac3a677e2d6872fba799a-1179580
+#EXTINF:0, MTV 
+http://210.245.18.154/spsklfl/_definst_/mtv.360p.stream/playlist.m3u8
+#EXTINF:-1,SKY NET SPORT HD S1
+http://199.189.110.20:1935/as99/chSport1hd/playlist.m3u8
+#EXTINF:-1,SKY NET SPORT HD S2
+http://216.185.103.158:1935/live2/chSport1hd/playlist.m3u8 
+#EXTINF:-1,SKY NET SPORT1 S1
+http://199.189.110.20:1935/as99/chSport2hd/playlist.m3u8
+#EXTINF:-1,SKY NET SPORT1 S2
+http://216.185.103.158:1935/live2/chSport2hd/playlist.m3u8
+#EXTINF:-1,TRUE SPORT2 
+http://216.185.103.158:1935/live2/chthaipremier11/playlist.m3u8
+
+#EXTINF:-1,TRUE SPORT3 
+
+http://216.185.103.158:1935/live2/chthaipremier31/playlist.m3u8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
